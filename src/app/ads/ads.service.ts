@@ -14,6 +14,11 @@ export class AdsService {
           {
             component: Ad1Component,
             data: {name: "deeshu"},
+          },
+          
+          {
+            component: Ad1Component,
+            data: {name: "neelima"},
           }
         ];
     }

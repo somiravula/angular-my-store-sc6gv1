@@ -16,7 +16,7 @@ export class AdsComponent {
 
   }
 
-  ngAfterViewInit() {
+  ngOnInit() {
       if (!this.ads.length) return;
       let index = 0;
     this.si = setInterval(() => {
