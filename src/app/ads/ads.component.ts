@@ -4,7 +4,7 @@ import { AdComponent, AdItem, AdsService } from "./ads.service";
 
 @Component({
   selector: "ads",
-  templateUrl: "./ads.component.html",
+  template: `<ng-container ad></ng-container>`,
 })
 export class AdsComponent {
   ads: AdItem[];
